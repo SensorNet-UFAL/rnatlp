@@ -26,10 +26,17 @@ jupyter notebook
 	install.packages("pbdZMQ")
 	install.packages("epr")
 	devtools::install_github('IRkernel/IRkernel')
-	IRkernel::installspec() 
+	IRkernel::installspec()
 	```
+### Additional Packages
+ - R (Some packages requires )
+   -  install.packages(c("readxl","rvest", "reticulate", "tidyverse", "ggplot2", "officer"))
+ - Python
+   - pip install spacy
 
 # References
+* [Officer](https://davidgohel.github.io/officer/articles/offcran/word.html)
+* [Spacy](http://spacy.io/)
 * [https://marcocarnini.github.io/software/2016/08/01/installing-r-kernel-for-jupyter.html](https://marcocarnini.github.io/software/2016/08/01/installing-r-kernel-for-jupyter.html)
 * [https://jupyter.readthedocs.io/en/latest/install.html](https://jupyter.readthedocs.io/en/latest/install.html)
 * [https://medium.com/@kyleake/how-to-install-r-in-jupyter-with-irkernel-in-3-steps-917519326e41](https://medium.com/@kyleake/how-to-install-r-in-jupyter-with-irkernel-in-3-steps-917519326e41)
