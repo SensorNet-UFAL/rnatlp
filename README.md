@@ -29,7 +29,7 @@ jupyter notebook
 	IRkernel::installspec()
 	```
 ### Additional Packages
- - R (Some packages requires )
+ - R
    -  install.packages(c("readxl","rvest", "reticulate", "tidyverse", "ggplot2", "officer"))
  - Python
    - pip install spacy
